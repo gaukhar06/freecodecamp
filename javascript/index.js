@@ -293,4 +293,47 @@ if (done === count) {
     continueLoop = false
 }
 
+rows.push(padRow(done, count));
+
+while (done !== count) {
+    done++;
+    rows.push(padRow(done, count));
+    if (done === count) {
+        continueLoop = false;
+    }
+}
+
+while (done !== count) {
+    done++;
+    rows.push(padRow(done, count));
+}
+
+let done = 0;
+
+while (done <= count) {
+    done++;
+    rows.push(padRow(done, count));
+}
+
+let done = 0;
+
+while (rows.length < count) {
+    done++;
+    rows.push(padRow(done, count));
+}
+
+let done = 0;
+
+while (rows.length < count) {
+    done++;
+    rows.push(padRow(rows.length + 1, count));
+}
+
+while (rows.length < count) {
+    rows.push(padRow(rows.length + 1, count));
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
 
