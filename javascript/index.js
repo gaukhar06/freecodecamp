@@ -374,3 +374,32 @@ for (let i = 1; i <= count; i++) {
     rows.unshift(padRow(i, count));
 }
 
+let inverted = true;
+
+if (inverted) {
+    for (let i = 1; i <= count; i++) {
+        rows.unshift(padRow(i, count));
+    }
+}
+
+for (let i = 1; i <= count; i++) {
+    if (inverted) {
+        rows.unshift(padRow(i, count));
+    }
+}
+
+for (let i = 1; i <= count; i++) {
+    if (inverted) {
+        rows.unshift(padRow(i, count));
+    } else {
+
+    }
+}
+
+for (let i = 1; i <= count; i++) {
+    if (inverted) {
+        rows.unshift(padRow(i, count));
+    } else {
+        rows.push(padRow(i, count));
+    }
+}
