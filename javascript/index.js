@@ -110,3 +110,52 @@ for (let i = 0; i < count; i = i + 1) {
 for (let i = 0; i < count; i = i + 1) {
     rows.push(character.repeat(i + 1))
 }
+
+function padRow() { }
+padRow();
+const call = padRow();
+console.log(call);
+
+function padRow() {
+    return "Hello!"
+}
+
+function padRow(name) {
+    return "Hello!";
+}
+
+
+function padRow(name) {
+    return name;
+}
+
+const call = padRow('Gaukhar');
+
+//   step 55:
+
+function addTwoNumbers(a, b) {
+    return a + b;
+};
+const sum = addTwoNumbers(5, 10);
+console.log(sum)
+
+function padRow(name) {
+    return character + name;
+}
+
+function padRow(name) {
+    const test = "Testing";
+    return character + name;
+}
+
+function padRow(name) {
+    const test = "Testing";
+    return test;
+}
+
+function padRow(name) {
+    const test = "Testing";
+    console.log("This works!");
+    return test;
+    console.log("This works!");
+}
