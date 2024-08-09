@@ -209,4 +209,31 @@ function padRow(rowNumber, rowCount) {
     return spaces + characters + spaces;
 }
 
-for (let i = 0; i < count; i += 1) {
+// for (let i = 0; i < count; i += 1) {
+
+// for (let i = 0; i < count; i ++) {
+
+for (let i = 1; i < count; i++) {
+    rows.push(padRow(i + 1, count));
+}
+
+for (let i = 1; i < count; i++) {
+    rows.push(padRow(i, count));
+}
+
+for (let i = 1; i <= count; i++) {
+    rows.push(padRow(i, count));
+}
+
+
+for (let i = 1; i <= count; i++) {
+    // comment
+    rows.push(padRow(i, count));
+}
+
+
+/*
+for (let i = 1; i <= count; i++) {
+ rows.push(padRow(i, count));
+}  */
+
