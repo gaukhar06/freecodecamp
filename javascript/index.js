@@ -5,7 +5,7 @@ console.log(character);
 let secondCharacter;
 secondCharacter = "Test"
 console.log(secondCharacter);
-secondCharacter= character;
+secondCharacter = character;
 
 
 let profession;
@@ -58,7 +58,7 @@ character = "#"
 const count = 8;
 const rows = [];
 
-for("iterator"; "condition"; "iteration") {
+for ("iterator"; "condition"; "iteration") {
 }
 
 for (let i = 0; "condition"; "iteration") {
@@ -73,4 +73,40 @@ for (let i = 0; i < count; i = i + 1) {
 
 }
 
+for (let i = 0; i < count; i = i + 1) {
+    console.log(i);
+}
 
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(i);
+}
+
+let result = "";
+
+console.log(result);
+
+for (const row of rows) {
+
+}
+
+for (const row of rows) {
+    result = result + row
+}
+
+for (const row of rows) {
+    result = result + '\n' + row;
+}
+
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character);
+}
+
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i));
+}
+
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i + 1))
+}
