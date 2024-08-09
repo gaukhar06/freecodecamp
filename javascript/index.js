@@ -337,3 +337,40 @@ while (rows.length < count) {
   rows.push(padRow(rows.length + 1, count));
 }*/
 
+for (let i = count; false; false) { }
+
+for (let i = count; i > 0; false) { }
+
+for (let i = count; i > 0; i = i - 1) { }
+
+for (let i = count; i > 0; i = i - 1) {
+    rows.push(padRow(i, count));
+}
+
+
+for (let i = count; i > 0; i -= 1) {
+    rows.push(padRow(i, count));
+}
+
+for (let i = count; i > 0; i--) {
+    rows.push(padRow(i, count));
+}
+
+
+/* for (let i = count; i > 0; i--) {
+rows.push(padRow(i, count));
+} */
+
+const numbers = [1, 2, 3];
+console.log(numbers)
+
+const numbers = [1, 2, 3];
+const unshifted = numbers.unshift(5);
+console.log(numbers);
+console.log(unshifted);
+
+
+for (let i = 1; i <= count; i++) {
+    rows.unshift(padRow(i, count));
+}
+
