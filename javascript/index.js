@@ -39,3 +39,38 @@ console.log(cities);
 let rows = ["Naomi", "Quincy", "CamperChan"];
 rows.push("freeCodeCamp")
 console.log(rows);
+let popped = rows.pop();
+console.log(popped);
+
+let pushed = rows.push("freeCodeCamp");
+console.log(pushed)
+
+let character = "Hello";
+let count = 8;
+let rows = [];
+
+const character = "Hello";
+const count = 8;
+const rows = [];
+
+let character = "Hello";
+character = "#"
+const count = 8;
+const rows = [];
+
+for("iterator"; "condition"; "iteration") {
+}
+
+for (let i = 0; "condition"; "iteration") {
+
+}
+
+for (let i = 0; i < count; "iteration") {
+
+}
+
+for (let i = 0; i < count; i = i + 1) {
+
+}
+
+
